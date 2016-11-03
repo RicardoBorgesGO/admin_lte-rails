@@ -6,8 +6,8 @@ require 'admin_lte-rails/version'
 Gem::Specification.new do |spec|
   spec.name          = 'admin_lte-rails'
   spec.version       = AdminLte::VERSION
-  spec.authors       = ["Sameer Rahmani"]
-  spec.email         = ["lxsameer@gnu.org"]
+  spec.authors       = ["Sameer Rahmani", "Ricardo Borges"]
+  spec.email         = ["lxsameer@gnu.org", "ricardoborges.ufg@gmail.com"]
 
   spec.summary       = %q{Gemified AdminLTE, with SASS and RTL support for Rails.}
   spec.description   = %q{Gemified AdminLTE, with SASS and RTL support for Rails.}
@@ -30,7 +30,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'bootstrap-sass'
 
   spec.add_dependency 'chart-js-rails'
-  spec.add_dependency 'ionicons-rails'
+  spec.add_dependency 'ionicons-rails', :git => 'https://github.com/RicardoBorgesGO/ionicons-rails'
 
   spec.add_dependency 'rails-assets-bootstrap-rtl'
   spec.add_dependency 'rails-assets-jquery-knob'
