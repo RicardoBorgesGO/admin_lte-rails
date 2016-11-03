@@ -50,7 +50,7 @@ require 'jquery-ui-rails'
 require 'select2-rails'
 require 'momentjs-rails'
 require 'chart-js-rails'
-require 'ionicons-rails'
+#require 'ionicons-rails'
 require 'bootstrap3-datetimepicker-rails'
 
 require 'rails-assets-jquery-knob'
