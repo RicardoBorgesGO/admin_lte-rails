@@ -17,7 +17,7 @@ module AdminLte
   end
 
   def self.dependencies
-    ['rails-assets-admin-lte']
+    ['rails-assets-admin-lte', 'ionicons-rails']
   end
 
   if defined?(Rails)
