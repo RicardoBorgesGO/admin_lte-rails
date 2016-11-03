@@ -1,4 +1,4 @@
-//= require jquery-ui
+//= require jquery.ui.all
 //= require bootstrap
 //= require select2
 //= require moment

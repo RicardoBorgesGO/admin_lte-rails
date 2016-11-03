@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'rails-assets-admin-lte', '~> 2.3.2'
   spec.add_dependency 'jquery-rails'
   spec.add_dependency 'font-awesome-rails'
-  spec.add_dependency 'jquery-ui-rails'
+  spec.add_dependency 'jquery-ui-rails', '~> 4.2.1'
   spec.add_dependency 'select2-rails'
   spec.add_dependency 'momentjs-rails'
   spec.add_dependency 'bootstrap3-datetimepicker-rails'
