@@ -5,3 +5,4 @@ source 'http://rails-assets.org'
 gemspec
 
 gem 'rails-assets-admin-lte'
+gem 'ionicons-rails', :git => 'https://github.com/RicardoBorgesGO/ionicons-rails'
